@@ -1,0 +1,762 @@
+2024-09-21T17:43:12.518+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:43:12.523+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:43:12.525+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:43:12.574+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-21T17:43:12.575+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-21T17:43:13.266+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:43:13.323+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2024-09-21T17:43:13.868+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:43:13.884+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:43:13.885+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:43:13.951+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:43:13.951+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1376 ms
+2024-09-21T17:43:13.984+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-21T17:43:14.329+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d8d1d31
+2024-09-21T17:43:14.331+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-21T17:43:14.340+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/nicholas_tesla'
+2024-09-21T17:43:14.640+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:43:14.748+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-09-21T17:43:14.796+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:43:15.068+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:43:16.085+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:43:16.230+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:43:16.475+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T17:43:16.514+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-21T17:43:16.960+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T17:43:16.996+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-09-21T17:43:17.004+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Started NicholasTeslaApplication in 4.917 seconds (process running for 5.814)
+2024-09-21T17:43:17.008+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Application started successfully...
+2024-09-21T17:43:17.008+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : This is a debug message...
+2024-09-21T17:45:14.661+05:30  INFO 12432 --- [NicholasTesla] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-21T17:45:14.707+05:30  INFO 12432 --- [NicholasTesla] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:45:14.711+05:30  INFO 12432 --- [NicholasTesla] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-21T17:45:14.721+05:30  INFO 12432 --- [NicholasTesla] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-21T17:45:14.786+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:45:14.786+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:45:14.786+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:45:14.952+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:45:14.961+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 3 JPA repository interfaces.
+2024-09-21T17:45:15.042+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:45:15.042+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:45:15.042+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:45:15.057+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:45:15.057+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 268 ms
+2024-09-21T17:45:15.067+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-09-21T17:45:15.083+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c0649bd
+2024-09-21T17:45:15.083+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-09-21T17:45:15.083+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/nicholas_tesla'
+2024-09-21T17:45:15.104+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:45:15.107+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:45:15.111+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:45:15.163+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:45:15.192+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:45:15.235+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService': Lookup method resolution failed
+2024-09-21T17:45:15.235+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:45:15.236+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-09-21T17:45:15.246+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-09-21T17:45:15.246+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-21T17:45:15.254+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-21T17:45:15.272+05:30 ERROR 12432 --- [NicholasTesla] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.2.8.jar:3.2.8]
+	at com.example.nicholastesla.NicholasTeslaApplication.main(NicholasTeslaApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.nicholastesla.service.EmployeeService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4ac7b230]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Employee
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.11.jar:6.1.11]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Employee
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-09-21T17:45:47.685+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:45:47.685+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:45:47.685+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:45:47.865+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:45:47.876+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 3 JPA repository interfaces.
+2024-09-21T17:45:47.953+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:45:47.954+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:45:47.955+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:45:47.977+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:45:47.977+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 290 ms
+2024-09-21T17:45:47.988+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-09-21T17:45:48.003+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6305a32c
+2024-09-21T17:45:48.003+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-09-21T17:45:48.004+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/nicholas_tesla'
+2024-09-21T17:45:48.024+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:45:48.028+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:45:48.032+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:45:48.083+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:45:48.113+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:45:48.153+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService': Lookup method resolution failed
+2024-09-21T17:45:48.153+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:45:48.154+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-09-21T17:45:48.174+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-09-21T17:45:48.175+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-21T17:45:48.184+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-21T17:45:48.188+05:30 ERROR 12432 --- [NicholasTesla] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.2.8.jar:3.2.8]
+	at com.example.nicholastesla.NicholasTeslaApplication.main(NicholasTeslaApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.nicholastesla.service.EmployeeService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@629acd7b]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Employee
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.11.jar:6.1.11]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Employee
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-09-21T17:46:02.014+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:46:02.015+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:46:02.015+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:46:02.187+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:46:02.189+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:46:02.236+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [com.example.nicholastesla.service.StudentServiceImpl] for bean with name 'studentServiceImpl' defined in file [C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes\com\example\nicholastesla\service\StudentServiceImpl.class]: problem with class file or dependent class
+2024-09-21T17:46:02.241+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-21T17:46:02.246+05:30 ERROR 12432 --- [NicholasTesla] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [com.example.nicholastesla.service.StudentServiceImpl] for bean with name 'studentServiceImpl' defined in file [C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes\com\example\nicholastesla\service\StudentServiceImpl.class]: problem with class file or dependent class
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1559) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:685) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:736) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.2.8.jar:3.2.8]
+	at com.example.nicholastesla.NicholasTeslaApplication.main(NicholasTeslaApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+Caused by: java.lang.ClassFormatError: Duplicate method name "saveStudent" with signature "(LStudent;)LStudent;" in class file com/example/nicholastesla/service/StudentServiceImpl
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[na:na]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[na:na]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[na:na]
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[na:na]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[na:na]
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.findClass(RestartClassLoader.java:136) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:118) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:304) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:489) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1624) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1549) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 23 common frames omitted
+
+2024-09-21T17:46:11.364+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:46:11.365+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:46:11.365+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:46:11.486+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:46:11.488+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:46:11.561+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:46:11.562+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:46:11.562+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:46:11.577+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:46:11.577+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 210 ms
+2024-09-21T17:46:11.586+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-09-21T17:46:11.598+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27f4a17e
+2024-09-21T17:46:11.599+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-09-21T17:46:11.599+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/nicholas_tesla'
+2024-09-21T17:46:11.619+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:46:11.623+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:46:11.627+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:46:11.638+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:46:11.639+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:46:11.644+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentController': Lookup method resolution failed
+2024-09-21T17:46:11.644+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:46:11.645+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-09-21T17:46:11.646+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-09-21T17:46:11.647+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-21T17:46:11.652+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-21T17:46:11.655+05:30 ERROR 12432 --- [NicholasTesla] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.2.8.jar:3.2.8]
+	at com.example.nicholastesla.NicholasTeslaApplication.main(NicholasTeslaApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.nicholastesla.controller.StudentController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3db250d]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Student
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.11.jar:6.1.11]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Student
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-09-21T17:46:20.303+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:46:20.303+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:46:20.303+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:46:20.448+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:46:20.450+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:46:20.518+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:46:20.518+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:46:20.518+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:46:20.534+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:46:20.534+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 229 ms
+2024-09-21T17:46:20.546+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-09-21T17:46:20.559+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72bd5788
+2024-09-21T17:46:20.560+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-09-21T17:46:20.560+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/nicholas_tesla'
+2024-09-21T17:46:20.578+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:46:20.581+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:46:20.585+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:46:20.597+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:46:20.597+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:46:20.603+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentController': Lookup method resolution failed
+2024-09-21T17:46:20.603+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:46:20.604+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-09-21T17:46:20.606+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-09-21T17:46:20.607+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-21T17:46:20.611+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-21T17:46:20.614+05:30 ERROR 12432 --- [NicholasTesla] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.2.8.jar:3.2.8]
+	at com.example.nicholastesla.NicholasTeslaApplication.main(NicholasTeslaApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.nicholastesla.controller.StudentController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4bf60b63]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Student
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.11.jar:6.1.11]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Student
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-09-21T17:46:24.135+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:46:24.136+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:46:24.136+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:46:24.253+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:46:24.255+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:46:24.317+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:46:24.318+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:46:24.318+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:46:24.334+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:46:24.334+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 196 ms
+2024-09-21T17:46:24.345+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-09-21T17:46:24.360+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31685eb8
+2024-09-21T17:46:24.360+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-09-21T17:46:24.360+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/nicholas_tesla'
+2024-09-21T17:46:24.376+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:46:24.379+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:46:24.383+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:46:24.394+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:46:24.394+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:46:24.409+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T17:46:24.416+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-21T17:46:24.490+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T17:46:24.499+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-09-21T17:46:24.504+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Started NicholasTeslaApplication in 0.404 seconds (process running for 193.313)
+2024-09-21T17:46:24.507+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-21T17:46:24.507+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Application started successfully...
+2024-09-21T17:46:24.507+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : This is a debug message...
+2024-09-21T17:46:28.995+05:30  INFO 12432 --- [NicholasTesla] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-21T17:46:29.047+05:30  INFO 12432 --- [NicholasTesla] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:46:29.047+05:30  INFO 12432 --- [NicholasTesla] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-09-21T17:46:29.050+05:30  INFO 12432 --- [NicholasTesla] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-09-21T17:46:29.115+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:46:29.115+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:46:29.115+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:46:29.239+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:46:29.241+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:46:29.316+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:46:29.317+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:46:29.317+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:46:29.333+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:46:29.333+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 217 ms
+2024-09-21T17:46:29.346+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-09-21T17:46:29.360+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f4e905e
+2024-09-21T17:46:29.360+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-09-21T17:46:29.361+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/karnataka'
+2024-09-21T17:46:29.376+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:46:29.379+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:46:29.383+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:46:29.398+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:46:29.398+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:46:29.411+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T17:46:29.417+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-21T17:46:29.487+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T17:46:29.496+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-09-21T17:46:29.500+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Started NicholasTeslaApplication in 0.406 seconds (process running for 198.309)
+2024-09-21T17:46:29.501+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-21T17:46:29.501+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Application started successfully...
+2024-09-21T17:46:29.501+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : This is a debug message...
+2024-09-21T17:47:07.841+05:30  INFO 12432 --- [NicholasTesla] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-21T17:47:07.887+05:30  INFO 12432 --- [NicholasTesla] [Thread-26] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:47:07.887+05:30  INFO 12432 --- [NicholasTesla] [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-09-21T17:47:07.891+05:30  INFO 12432 --- [NicholasTesla] [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-09-21T17:47:07.947+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:47:07.947+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:47:07.947+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:47:08.078+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:47:08.081+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:47:08.138+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:47:08.138+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:47:08.138+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:47:08.153+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:47:08.153+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 204 ms
+2024-09-21T17:47:08.163+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-09-21T17:47:08.175+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@164552d8
+2024-09-21T17:47:08.175+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-09-21T17:47:08.175+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/karnataka'
+2024-09-21T17:47:08.191+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:47:08.194+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:47:08.201+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:47:08.213+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:47:08.213+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:47:08.227+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T17:47:08.233+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-21T17:47:08.301+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T17:47:08.310+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-09-21T17:47:08.315+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Started NicholasTeslaApplication in 0.388 seconds (process running for 237.123)
+2024-09-21T17:47:08.316+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-21T17:47:08.316+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Application started successfully...
+2024-09-21T17:47:08.316+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : This is a debug message...
+2024-09-21T17:47:26.092+05:30  INFO 12432 --- [NicholasTesla] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-21T17:47:26.153+05:30  INFO 12432 --- [NicholasTesla] [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:47:26.153+05:30  INFO 12432 --- [NicholasTesla] [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-09-21T17:47:26.155+05:30  INFO 12432 --- [NicholasTesla] [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-09-21T17:47:26.212+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:47:26.212+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:47:26.212+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:47:26.344+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:47:26.346+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:47:26.421+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:47:26.422+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:47:26.422+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:47:26.436+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:47:26.436+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 223 ms
+2024-09-21T17:47:26.446+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-09-21T17:47:26.458+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aa884b8
+2024-09-21T17:47:26.458+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-09-21T17:47:26.459+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/karnataka'
+2024-09-21T17:47:26.481+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:47:26.484+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:47:26.488+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:47:26.504+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:47:26.505+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:47:26.519+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T17:47:26.526+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-21T17:47:26.601+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T17:47:26.611+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-09-21T17:47:26.615+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Started NicholasTeslaApplication in 0.423 seconds (process running for 255.424)
+2024-09-21T17:47:26.616+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-21T17:47:26.617+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Application started successfully...
+2024-09-21T17:47:26.617+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : This is a debug message...
+2024-09-21T17:47:40.360+05:30  INFO 12432 --- [NicholasTesla] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-21T17:47:40.411+05:30  INFO 12432 --- [NicholasTesla] [Thread-34] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:47:40.411+05:30  INFO 12432 --- [NicholasTesla] [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-09-21T17:47:40.415+05:30  INFO 12432 --- [NicholasTesla] [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-09-21T17:47:40.474+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:47:40.475+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:47:40.475+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:47:40.608+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:47:40.609+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:47:40.726+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:47:40.727+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:47:40.728+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:47:40.750+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:47:40.750+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 274 ms
+2024-09-21T17:47:40.762+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-09-21T17:47:40.774+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d030817
+2024-09-21T17:47:40.774+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-09-21T17:47:40.774+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/karnataka'
+2024-09-21T17:47:40.794+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:47:40.797+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:47:40.800+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:47:40.812+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:47:40.812+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:47:40.817+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService': Lookup method resolution failed
+2024-09-21T17:47:40.818+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:47:40.818+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-09-21T17:47:40.819+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-09-21T17:47:40.820+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-21T17:47:40.825+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-21T17:47:40.828+05:30 ERROR 12432 --- [NicholasTesla] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.2.8.jar:3.2.8]
+	at com.example.nicholastesla.NicholasTeslaApplication.main(NicholasTeslaApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.nicholastesla.service.EmployeeService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@70296ebb]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Employee
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.11.jar:6.1.11]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Employee
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-09-21T17:47:51.521+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:47:51.521+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:47:51.521+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:47:51.644+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:47:51.645+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:47:51.716+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:47:51.717+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:47:51.717+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:47:51.731+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:47:51.731+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 208 ms
+2024-09-21T17:47:51.741+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-09-21T17:47:51.751+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f122df4
+2024-09-21T17:47:51.751+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-09-21T17:47:51.752+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/karnataka'
+2024-09-21T17:47:51.768+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:47:51.771+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:47:51.775+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:47:51.785+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:47:51.785+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:47:51.804+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T17:47:51.810+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-21T17:47:51.879+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T17:47:51.887+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-09-21T17:47:51.892+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Started NicholasTeslaApplication in 0.406 seconds (process running for 280.701)
+2024-09-21T17:47:51.893+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-21T17:47:51.893+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Application started successfully...
+2024-09-21T17:47:51.893+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : This is a debug message...
+2024-09-21T17:48:03.552+05:30  INFO 12432 --- [NicholasTesla] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-21T17:48:03.598+05:30  INFO 12432 --- [NicholasTesla] [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:48:03.598+05:30  INFO 12432 --- [NicholasTesla] [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-09-21T17:48:03.602+05:30  INFO 12432 --- [NicholasTesla] [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-09-21T17:48:03.657+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:48:03.658+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:48:03.658+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:48:03.793+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:48:03.794+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:48:03.863+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:48:03.865+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:48:03.865+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:48:03.878+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:48:03.878+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 219 ms
+2024-09-21T17:48:03.888+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2024-09-21T17:48:03.898+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42fa141f
+2024-09-21T17:48:03.899+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2024-09-21T17:48:03.899+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/karnataka'
+2024-09-21T17:48:03.922+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:48:03.924+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:48:03.928+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:48:03.941+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:48:03.941+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:48:03.947+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController': Lookup method resolution failed
+2024-09-21T17:48:03.947+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:48:03.947+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2024-09-21T17:48:03.948+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2024-09-21T17:48:03.949+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-21T17:48:03.954+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-21T17:48:03.958+05:30 ERROR 12432 --- [NicholasTesla] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.2.8.jar:3.2.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.2.8.jar:3.2.8]
+	at com.example.nicholastesla.NicholasTeslaApplication.main(NicholasTeslaApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.nicholastesla.controller.EmployeeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3d5c4adc]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Employee
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.11.jar:6.1.11]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Employee
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.8.jar:3.2.8]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-09-21T17:48:19.820+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:48:19.821+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:48:19.821+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:48:19.952+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:48:19.953+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:48:20.032+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:48:20.033+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:48:20.033+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:48:20.047+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:48:20.047+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 225 ms
+2024-09-21T17:48:20.059+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2024-09-21T17:48:20.070+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@df43647
+2024-09-21T17:48:20.071+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2024-09-21T17:48:20.071+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/karnataka'
+2024-09-21T17:48:20.086+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:48:20.088+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:48:20.092+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:48:20.104+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:48:20.104+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:48:20.123+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T17:48:20.129+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-21T17:48:20.202+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T17:48:20.211+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-09-21T17:48:20.216+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Started NicholasTeslaApplication in 0.421 seconds (process running for 309.025)
+2024-09-21T17:48:20.217+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-21T17:48:20.217+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Application started successfully...
+2024-09-21T17:48:20.217+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : This is a debug message...
+2024-09-21T17:48:43.201+05:30  INFO 12432 --- [NicholasTesla] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-21T17:48:43.262+05:30  INFO 12432 --- [NicholasTesla] [Thread-45] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:48:43.263+05:30  INFO 12432 --- [NicholasTesla] [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2024-09-21T17:48:43.266+05:30  INFO 12432 --- [NicholasTesla] [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2024-09-21T17:49:50.676+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Starting NicholasTeslaApplication using Java 17.0.9 with PID 12432 (C:\Users\Karthikeya80\softwares\Projects\NicholasTesla\target\classes started by Karthikeya80 in C:\Users\Karthikeya80\softwares\Projects\NicholasTesla)
+2024-09-21T17:49:50.676+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-09-21T17:49:50.676+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T17:49:50.802+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T17:49:50.804+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-21T17:49:50.873+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-21T17:49:50.874+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T17:49:50.874+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-21T17:49:50.888+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-21T17:49:50.888+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 210 ms
+2024-09-21T17:49:50.900+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2024-09-21T17:49:50.913+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2843c7a4
+2024-09-21T17:49:50.913+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2024-09-21T17:49:50.913+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/karnataka'
+2024-09-21T17:49:50.933+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T17:49:50.935+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T17:49:50.939+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T17:49:50.951+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T17:49:50.951+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:49:50.968+05:30  WARN 12432 --- [NicholasTesla] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T17:49:50.974+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-21T17:49:51.040+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T17:49:51.050+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-09-21T17:49:51.054+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Started NicholasTeslaApplication in 0.4 seconds (process running for 399.863)
+2024-09-21T17:49:51.055+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-21T17:49:51.056+05:30  INFO 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : Application started successfully...
+2024-09-21T17:49:51.056+05:30 DEBUG 12432 --- [NicholasTesla] [restartedMain] c.e.n.NicholasTeslaApplication           : This is a debug message...
+2024-09-21T17:50:05.851+05:30  INFO 12432 --- [NicholasTesla] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-21T17:50:05.919+05:30  INFO 12432 --- [NicholasTesla] [Thread-59] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T17:50:05.919+05:30  INFO 12432 --- [NicholasTesla] [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2024-09-21T17:50:05.922+05:30  INFO 12432 --- [NicholasTesla] [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.

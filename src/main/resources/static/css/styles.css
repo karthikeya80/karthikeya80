@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-section {
+    background-image: url('nature.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.top-right-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.user-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.login-signup-dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.login-signup-dropdown button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-signup-dropdown button:hover {
+    background-color: #555;
+}
+
+#hcontent {
+    margin-top: 150px;
+}
